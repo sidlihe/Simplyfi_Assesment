@@ -1,0 +1,34 @@
+As per note i took the Ali and Gi-hun height are same
+1)Test Case 1st:
+        In the first test case Ali and Gi-hun have same height is 10
+        For Ali to be visible to Gi-Hun, the second person (with height 13) and the fourth person (with
+        height 16) need to get shot. Hence, the minimum number of players who need to get shot is 2
+        so i take 4 players with height as per so all players need to hide behind ali so 1st is ali and last is Gi-hun 
+        height of all player consist ali and Gi-hun
+        [10,13,6,16,4,10]....second player height is 13 and fourth is 16
+        
+ 
+result:Number of players visible to Gi-Hun: 2 (second player and fourth player are visible)
+
+
+2)Test Case 2nd:
+        In the second test case Ali and Gi-hun have height 8
+        For Ali to be visible to Gi-Hun, the first person (with height 9) needs to get shot. Hence, the
+        minimum number of players who need to get shot is 1
+        so height of all players are With Ali And Gi-Hun
+        [8,9,8]
+        
+    
+result:Number of players visible to Gi-Hun: 1
+
+3)Test Case 3rd:
+        In the third test case Ali and Gi-hun height i take is 8
+        Nobody needs to get shot because everyone is shorter than Gi-Hun and Ali.
+        means all players are smaller in height then Ali and Gi-hun
+        so i take only 3 player in between them
+        height of all players include Ali and Gi-hun
+        [8,5,6,7,8]
+
+    
+result:Nobody get shot nobody visible to Gi-hun because condition are there mentioned 
+        in note are Line of sight is a straight line drawn between the topmost point of two objects
